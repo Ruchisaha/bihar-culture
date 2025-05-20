@@ -1,11 +1,45 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bihar Ek - Quiz & Feedback</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-    
+
+  <div class="container">
+    <h2>Bihar Ek - Quiz</h2>
+
+    <div class="question">
+      <p>1. Bihar ki capital kya hai?</p>
+      <label><input type="radio" name="q1" value="a"> Gaya</label><br>
+      <label><input type="radio" name="q1" value="b"> Patna</label><br>
+      <label><input type="radio" name="q1" value="c"> Bhagalpur</label>
+    </div>
+
+    <div class="question">
+      <p>2. Bihar ki famous university kaun si hai?</p>
+      <label><input type="radio" name="q2" value="a"> Nalanda</label><br>
+      <label><input type="radio" name="q2" value="b"> DU</label><br>
+      <label><input type="radio" name="q2" value="c"> JNU</label>
+    </div>
+
+    <button id="submit">Submit Quiz</button>
+
+    <div id="result"></div>
+
+    <div class="section">
+      <h2>Apna Comment Deejiye</h2>
+      <textarea id="commentBox" placeholder="Apna feedback ya comment likhiye..."></textarea>
+      <button id="commentSubmit">Submit Comment</button>
+      <div id="userComment"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
